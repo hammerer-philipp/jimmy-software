@@ -1,10 +1,11 @@
-import { Search, Wrench, Rocket, TrendingUp } from "lucide-react";
+import { Search, Lightbulb, Wrench, Rocket, TrendingUp } from "lucide-react";
 
 const steps = [
-  { step: 1, title: "Kennenlernen & Analyse", text: "Wir verstehen deine Vision.", icon: Search },
-  { step: 2, title: "MVP-Entwicklung", text: "Lean, praxisnah und nutzerorientiert.", icon: Wrench },
-  { step: 3, title: "Launch", text: "Dein Produkt geht live.", icon: Rocket },
-  { step: 4, title: "Skalierung", text: "Auf Wunsch bleiben wir langfristiger Partner.", icon: TrendingUp },
+  { step: 1, title: "Kennenlernen & Idee verstehen", text: "Wir verstehen deine Vision.", icon: Search },
+  { step: 2, title: "Konzeptphase", text: "Gemeinsam skizzieren wir das Zielbild.", icon: Lightbulb },
+  { step: 3, title: "MVP-Entwicklung", text: "Lean, praxisnah und nutzerorientiert.", icon: Wrench },
+  { step: 4, title: "Launch", text: "Dein Produkt geht live.", icon: Rocket },
+  { step: 5, title: "Skalierung", text: "Auf Wunsch bleiben wir langfristiger Partner.", icon: TrendingUp },
 ];
 
 const ProcessSection = () => {
