@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import processStep3 from "@/assets/process-step-3.jpg";
+
 
 const services = [
   { title: "Individuelle SaaS-MVP-Entwicklung" },
@@ -15,7 +15,7 @@ const ServicesSection = () => {
           {/* Bild links */}
           <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in">
             <img
-              src={processStep3}
+              src="/lovable-uploads/7896cc60-9fed-40b2-9f17-284b855762fb.png"
               alt="SaaS MVP – minimalistisches Mockup, professionell und fokussiert"
               loading="lazy"
               decoding="async"
