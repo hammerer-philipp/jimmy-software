@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Instagram } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
             />
             <span className="font-helvetica text-primary text-base md:text-lg font-semibold">Jimmy Software</span>
           </div>
-          <p className="text-sm text-muted-foreground">so einfach war es noch nie</p>
+          <p className="text-sm text-muted-foreground">So einfach war es noch nie</p>
         </div>
         <p className="text-sm text-muted-foreground text-center md:text-left">
           © 2025 Jimmy Software – Entwickelt mit ❤️ in Bayern.
@@ -38,13 +38,6 @@ const Footer = () => {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Instagram />
-            </a>
-            <a
-              href="mailto:hello@jimmy.software"
-              aria-label="E-Mail senden"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Mail />
             </a>
           </div>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
