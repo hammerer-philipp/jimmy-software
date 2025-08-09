@@ -65,7 +65,9 @@ export default {
 			},
 			fontFamily: {
 				sans: [
+					'Helvetica',
 					'Inter',
+					'Arial',
 					'ui-sans-serif',
 					'system-ui',
 					'-apple-system',
@@ -73,7 +75,6 @@ export default {
 					'"Segoe UI"',
 					'Roboto',
 					'"Helvetica Neue"',
-					'Arial',
 					'"Noto Sans"',
 					'sans-serif'
 				]
