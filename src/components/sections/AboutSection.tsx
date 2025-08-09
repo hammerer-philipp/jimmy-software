@@ -11,7 +11,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 md:py-28">
       <div className="container grid md:grid-cols-2 lg:grid-cols-12 gap-12 items-center">
         <div className="space-y-6 animate-fade-in lg:col-span-7">
-          <h2 className="text-3xl md:text-4xl font-semibold">
+          <h2 className="text-2xl md:text-3xl font-semibold">
             Wir bauen nicht nur für andere – wir bauen auch für uns.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
