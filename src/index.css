@@ -86,4 +86,8 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  /* Scroll reveal */
+  .reveal { opacity: 0; transform: translateY(16px); will-change: opacity, transform; transition: opacity 500ms ease, transform 500ms ease; }
+  .reveal.in-view { opacity: 1; transform: none; }
 }
