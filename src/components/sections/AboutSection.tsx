@@ -7,15 +7,12 @@ const AboutSection = () => {
             Wir bauen nicht nur für andere – wir bauen auch für uns.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Ich bin Philipp und habe aus dem Kinderzimmer heraus meine eigene SaaS gegründet. Mit <a href="https://jimmy-ausbildung.de" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">Jimmy Ausbildung</a>, unserem Ausbildungsportal, erleben wir täglich den Alltag eines SaaS-Startups.
-          </p>
-          <p className="text-muted-foreground text-lg leading-relaxed">
+            Ich bin Philipp und habe aus dem Kinderzimmer heraus meine eigene SaaS gegründet. Mit <a href="https://jimmy-ausbildung.de" target="_blank" rel="noopener noreferrer" className="text-current no-underline hover:no-underline focus:no-underline">Jimmy Ausbildung</a>, unserem Ausbildungsportal, erleben wir täglich den Alltag eines SaaS-Startups.
+            <br /><br />
             Diese Erfahrung wollen wir jetzt nutzen, um andere SaaS-Startups oder die, die es werden wollen, bei der Entwicklung ihrer MVPs zu unterstützen. Wir helfen dir, deine Idee schnell, effizient und kosteneffektiv in ein marktreifes Produkt zu verwandeln.
-          </p>
-          <p className="text-muted-foreground text-lg leading-relaxed">
+            <br /><br />
             Unser Modell ist transparent: Du zahlst eine faire Anzahlung im mittleren vierstelligen Bereich plus eine Umsatzbeteiligung für einen bestimmten Zeitraum. So entstehen keine hohen Anfangskosten und du gehst kein Risiko ein. Sollte dein Produkt nicht wie gewünscht ankommen, hast du bei uns keine Schulden und verlierst außer der Anzahlung nichts.
-          </p>
-          <p className="text-muted-foreground text-lg leading-relaxed">
+            <br /><br />
             Wir sind der Partner für Gründer ohne eigene Entwickler oder Tech-Co-Founder, die ihre SaaS-Idee realisieren wollen.
           </p>
         </div>
