@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="w-full sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex items-center justify-between py-4">
-        <a href="#home" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <img
             src="/lovable-uploads/09782ad4-4aa3-450b-8be5-185a9c24f0aa.png"
             alt="Jimmy Software Logo"
