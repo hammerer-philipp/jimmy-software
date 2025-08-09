@@ -1,11 +1,11 @@
 import { Search, Lightbulb, Wrench, Rocket, TrendingUp } from "lucide-react";
 
 const steps = [
-  { step: 1, title: "Kennenlernen & Idee verstehen", text: "Wir verstehen deine Vision.", icon: Search },
-  { step: 2, title: "Konzeptphase", text: "Gemeinsam skizzieren wir das Zielbild.", icon: Lightbulb },
-  { step: 3, title: "MVP-Entwicklung", text: "Lean, praxisnah und nutzerorientiert.", icon: Wrench },
-  { step: 4, title: "Launch", text: "Dein Produkt geht live.", icon: Rocket },
-  { step: 5, title: "Skalierung", text: "Auf Wunsch bleiben wir langfristiger Partner.", icon: TrendingUp },
+  { step: 1, title: "Kennenlernen & Idee verstehen", text: "In einem ersten Gespräch lernen wir dich und deine Idee kennen.", icon: Search },
+  { step: 2, title: "Konzeptphase", text: "Anschließend entwerfen wir anhand der Informationen die du uns gegeben hast ein Mockup für dein Produkt.", icon: Lightbulb },
+  { step: 3, title: "MVP-Entwicklung", text: "Wenn dir das Mockuo gefällt, entwickeln wir dein SaaS-MVP mit Flutter um eine hybride Lösung zu schaffen.", icon: Wrench },
+  { step: 4, title: "Launch", text: "Wenn du mit unserer Arbeit zufrieden bist, wird deine SaaS-Anwendung veröffentlicht.", icon: Rocket },
+  { step: 5, title: "Skalierung", text: "Auf Wunsch bleiben wir dein langfristiger Partner zur Weiterentwicklung deiner Anwendung.", icon: TrendingUp },
 ];
 
 const ProcessSection = () => {
