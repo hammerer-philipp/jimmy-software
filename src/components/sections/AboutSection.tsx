@@ -15,9 +15,7 @@ const AboutSection = () => {
             Wir bauen nicht nur für andere – wir bauen auch für uns.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Ich bin Philipp. Mit <a href="https://jimmy-ausbildung.de" target="_blank" rel="noopener noreferrer" className="text-current no-underline hover:no-underline focus:no-underline">Jimmy Ausbildung</a> leben wir den echten SaaS‑Alltag.
-            Diese Praxis nutzen wir, um Gründer schnell und kosteneffizient zu einem marktreifen MVP zu führen – ohne hohe Anfangskosten.
-            Fair: überschaubare Anzahlung plus zeitlich begrenzte Umsatzbeteiligung. Ideal für Teams ohne eigenen Tech‑Co‑Founder.
+            Hey, ich bin Philipp. Mit <a href="https://jimmy-ausbildung.de" target="_blank" rel="noopener noreferrer" className="text-current no-underline hover:no-underline focus:no-underline">Jimmy Ausbildung</a>, meinem eigenen SaaS kennen wir den Startup-Alltag. Diese Praxiserfahrung nutzen wir, um Gründer schnell und kosteneffizient zu einem marktreifen MVP zu führen – ohne hohe Anfangskosten. Da wir wissen dass das Budget zu beginn oft knapp ist, bieten wir eine überschaubare Anzahlung plus zeitlich begrenzte Umsatzbeteiligung. Ideal für Teams ohne eigenen Tech‑Co‑Founder.
           </p>
           <ul className="space-y-4 pt-2">
             {services.map(({ title }) => (
