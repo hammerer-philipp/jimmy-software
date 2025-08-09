@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 
 const services = [
@@ -13,14 +14,18 @@ const ServicesSection = () => {
       <div className="container">
         <div className="grid items-center gap-10 md:gap-14 lg:grid-cols-2">
           {/* Bild links */}
-          <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in">
-            <img
-              src="/lovable-uploads/8d4b0435-ce43-4afd-a203-18f8c77166ff.png"
-              alt="SaaS MVP – minimalistisches Mockup, professionell und fokussiert"
-              loading="lazy"
-              decoding="async"
-              className="w-full h-full object-cover"
-            />
+          <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in bg-background">
+            <AspectRatio ratio={4 / 3}>
+              <img
+                src="/lovable-uploads/06be3998-4bbb-4286-b687-09f853194294.png"
+                alt="Minimalistisches Smartphone-Visual mit blauem Maskottchen-Icon"
+                loading="lazy"
+                decoding="async"
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="w-full h-full object-contain"
+                draggable={false}
+              />
+            </AspectRatio>
           </div>
 
           {/* Headlines rechts */}
