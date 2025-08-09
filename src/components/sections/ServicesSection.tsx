@@ -15,7 +15,7 @@ const ServicesSection = () => {
           {/* Bild links */}
           <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in">
             <img
-              src="/lovable-uploads/7896cc60-9fed-40b2-9f17-284b855762fb.png"
+              src="/lovable-uploads/8d4b0435-ce43-4afd-a203-18f8c77166ff.png"
               alt="SaaS MVP – minimalistisches Mockup, professionell und fokussiert"
               loading="lazy"
               decoding="async"
