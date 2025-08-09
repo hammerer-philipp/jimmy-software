@@ -14,10 +14,10 @@ const Hero = () => {
               Durch unsere eigene SaaS Jimmy Ausbildung kennen wir die Bedürfnisse junger Startups.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
-              <Button asChild variant="heroWhite" size="xl">
+              <Button asChild variant="heroWhite" size="xl" className="hover-scale">
                 <a href="#contact">Projekt starten</a>
               </Button>
-              <Button asChild variant="heroBlack" size="xl">
+              <Button asChild variant="heroBlack" size="xl" className="hover-scale">
                 <a href="#about">Mehr erfahren</a>
               </Button>
             </div>

@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="w-full sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex items-center justify-between py-4">
-        <a href="/" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2 hover-scale">
           <img
             src="/lovable-uploads/09782ad4-4aa3-450b-8be5-185a9c24f0aa.png"
             alt="Jimmy Software Logo"
@@ -15,9 +15,9 @@ const Navbar = () => {
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           
-          <a href="#about" className="hover:text-foreground transition-colors">Über uns</a>
-          <a href="#process" className="hover:text-foreground transition-colors">Ablauf</a>
-          <a href="#contact" className="hover:text-foreground transition-colors">Kontakt</a>
+          <a href="#about" className="story-link hover:text-foreground transition-colors">Über uns</a>
+          <a href="#process" className="story-link hover:text-foreground transition-colors">Ablauf</a>
+          <a href="#contact" className="story-link hover:text-foreground transition-colors">Kontakt</a>
         </div>
         <div className="flex items-center gap-3">
           <Button asChild variant="heroWhite" size="sm">

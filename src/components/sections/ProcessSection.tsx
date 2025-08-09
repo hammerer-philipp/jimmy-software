@@ -21,7 +21,7 @@ const ProcessSection = () => {
             return (
               <article
                 key={s.step}
-                className="relative p-6 md:p-8 rounded-2xl bg-card/60 backdrop-blur-md border border-border shadow-lg animate-fade-in"
+                className="relative p-6 md:p-8 rounded-2xl bg-card/60 backdrop-blur-md border border-border shadow-lg animate-fade-in hover-scale transition-transform"
               >
                 {/* Schritt-Badge rechts */}
                 <div className="absolute top-4 right-4">

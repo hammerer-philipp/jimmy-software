@@ -14,7 +14,7 @@ const ServicesSection = () => {
       <div className="container">
         <div className="grid items-center gap-10 md:gap-14 lg:grid-cols-2">
           {/* Bild links */}
-          <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in bg-background">
+          <div className="relative overflow-hidden rounded-xl shadow-lg animate-fade-in bg-background hover-scale">
             <AspectRatio ratio={4 / 3}>
               <img
                 src="/lovable-uploads/06be3998-4bbb-4286-b687-09f853194294.png"
