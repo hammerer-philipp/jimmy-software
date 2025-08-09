@@ -14,7 +14,7 @@ const Navbar = () => {
           <span className="font-helvetica text-primary text-base md:text-lg font-semibold">Jimmy Software</span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
-          <a href="#services" className="hover:text-foreground transition-colors">Leistungen</a>
+          
           <a href="#about" className="hover:text-foreground transition-colors">Über uns</a>
           <a href="#process" className="hover:text-foreground transition-colors">Ablauf</a>
           <a href="#contact" className="hover:text-foreground transition-colors">Kontakt</a>
