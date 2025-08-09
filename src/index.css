@@ -63,4 +63,5 @@
 
 @layer utilities {
   .bg-hero { background: var(--gradient-hero); }
+  .font-helvetica { font-family: Helvetica, Arial, sans-serif; }
 }

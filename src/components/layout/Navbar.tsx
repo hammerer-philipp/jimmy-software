@@ -11,7 +11,7 @@ const Navbar = () => {
             className="h-8 w-auto"
             loading="eager"
           />
-          <span className="sr-only">Jimmy Software</span>
+          <span className="font-helvetica text-foreground text-base md:text-lg font-semibold">Jimmy Software</span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#services" className="hover:text-foreground transition-colors">Leistungen</a>
