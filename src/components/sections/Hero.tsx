@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container py-20 md:py-28">
         <div className="grid gap-10 items-center">
           <div className="space-y-6 animate-fade-in">
-            <p className="text-sm uppercase tracking-wider text-muted-foreground">Jimmy Software</p>
+            <p className="text-sm uppercase tracking-wider text-muted-foreground">Dein Partner für SaaS</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
               Wir entwickeln <span className="text-primary">SaaS‑MVP</span> für Startups mit <span className="text-primary">kleinem Budget</span>
             </h1>
