@@ -1,3 +1,11 @@
+import { CheckCircle2 } from "lucide-react";
+
+const services = [
+  { title: "Individuelle SaaS-MVP-Entwicklung" },
+  { title: "Faire Einstiegskosten + Umsatzbeteiligung" },
+  { title: "Erfahrung aus echtem Betrieb" },
+];
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-20 md:py-28">
@@ -15,6 +23,17 @@ const AboutSection = () => {
             <br /><br />
             Wir sind der Partner für Gründer ohne eigene Entwickler oder Tech-Co-Founder, die ihre SaaS-Idee realisieren wollen.
           </p>
+          <ul className="space-y-4 pt-2">
+            {services.map(({ title }) => (
+              <li key={title} className="flex items-start gap-3">
+                <CheckCircle2
+                  className="h-5 w-5 text-primary shrink-0 mt-0.5"
+                  aria-hidden="true"
+                />
+                <span className="text-base md:text-lg leading-snug">{title}</span>
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="animate-fade-in">
           <img
