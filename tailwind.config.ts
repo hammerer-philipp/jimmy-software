@@ -75,7 +75,7 @@ export default {
 					'"Helvetica Neue"',
 					'Arial',
 					'"Noto Sans"',
-					sans-serif
+					'sans-serif'
 				]
 			},
 			borderRadius: {
