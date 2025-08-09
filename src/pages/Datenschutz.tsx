@@ -24,9 +24,9 @@ const Datenschutz = () => {
   return (
     <main>
       <section className="py-16 md:py-20">
-        <div className="container space-y-6">
+        <div className="container space-y-6 animate-fade-in">
           <h1 className="text-3xl md:text-4xl font-semibold">Datenschutzerklärung</h1>
-          <article className="prose prose-invert max-w-none space-y-6">
+          <article className="space-y-6 text-muted-foreground leading-relaxed max-w-3xl">
             <section>
               <h2 className="text-xl md:text-2xl font-semibold">1. Verantwortlicher</h2>
               <p>Jimmy Software, E-Mail: <a href="mailto:hello@jimmy.software">hello@jimmy.software</a></p>

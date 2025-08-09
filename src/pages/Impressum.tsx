@@ -24,9 +24,9 @@ const Impressum = () => {
   return (
     <main>
       <section className="py-16 md:py-20">
-        <div className="container space-y-6">
+        <div className="container space-y-6 animate-fade-in">
           <h1 className="text-3xl md:text-4xl font-semibold">Impressum</h1>
-          <article className="prose prose-invert max-w-none">
+          <article className="space-y-4 text-muted-foreground leading-relaxed max-w-3xl">
             <p><strong>Jimmy Software</strong></p>
             <p>Musterstraße 1<br />12345 Musterstadt<br />Deutschland</p>
             <p>E-Mail: <a href="mailto:hello@jimmy.software">hello@jimmy.software</a></p>
