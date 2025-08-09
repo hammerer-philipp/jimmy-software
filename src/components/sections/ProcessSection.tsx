@@ -1,3 +1,11 @@
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import step1 from "@/assets/process-step-1.jpg";
+import step2 from "@/assets/process-step-2.jpg";
+import step3 from "@/assets/process-step-3.jpg";
+import step4 from "@/assets/process-step-4.jpg";
+
+const stepImages = [step1, step2, step3, step4];
+
 const steps = [
   { step: 1, title: "Kennenlernen & Analyse", text: "Wir verstehen deine Vision." },
   { step: 2, title: "MVP-Entwicklung", text: "Lean, praxisnah und nutzerorientiert." },
@@ -25,17 +33,16 @@ const ProcessSection = () => {
                 </span>
               </div>
 
-              {/* Mockup/Status Kopfbereich */}
+              {/* Bildbereich */}
               <div className="mb-6">
-                <div className="h-28 rounded-md border border-border bg-muted/30 flex items-center justify-between px-4">
-                  <span className="text-sm text-muted-foreground">Status:</span>
-                  <div className="w-48">
-                    <div className="h-1.5 w-full rounded-full bg-muted">
-                      <div className="h-1.5 rounded-full bg-primary w-1/3" />
-                    </div>
-                    <div className="mt-1 text-[10px] text-muted-foreground">Updating…</div>
-                  </div>
-                </div>
+                <AspectRatio ratio={16 / 9}>
+                  <img
+                    src={stepImages[s.step - 1]}
+                    alt={`${s.title} – Prozessschritt ${s.step}`}
+                    loading="lazy"
+                    className="h-full w-full rounded-md object-cover border border-border"
+                  />
+                </AspectRatio>
               </div>
 
               <header className="mb-2">
