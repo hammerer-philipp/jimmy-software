@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/hammerer-philipp"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -29,7 +29,7 @@ const Footer = () => {
               <Linkedin />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/philipp_hammerer/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
