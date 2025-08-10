@@ -12,7 +12,7 @@ const CTASection = () => {
           Buche dein unverbindliches Erstgespräch und erfahre, wie wir deine SaaS-Idee umsetzen können – fair, effizient und praxisnah.
         </p>
         <Button asChild variant="heroWhite" size="xl" className="hover-scale">
-          <a href="mailto:hello@jimmy.software" aria-label="Kostenloses Erstgespräch buchen">
+          <a href="https://meetings.hubspot.com/philipp-hammerer" aria-label="Kostenloses Erstgespräch buchen">
             Kostenloses Erstgespräch buchen
           </a>
         </Button>
