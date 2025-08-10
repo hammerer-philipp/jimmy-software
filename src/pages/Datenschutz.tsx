@@ -66,8 +66,8 @@ const Datenschutz = () => {
                   <p>Strato stellt unser Webhosting bereit und verarbeitet Daten auf Grundlage eines Auftragsverarbeitungsvertrags.</p>
                 </li>
                 <li>
-                  <p><strong>Google LLC (Google Meet)</strong><br />Adresse USA: 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<br />EU-Niederlassung: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland</p>
-                  <p>Google Meet nutzen wir ausschließlich zur Durchführung von Videokonferenzen. Die Datenverarbeitung erfolgt unter Einhaltung der EU-Standardvertragsklauseln. Weitere Informationen finden Sie hier: <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">https://policies.google.com/privacy</a></p>
+                  <p><strong>Google LLC (Google Meet, Google Calendar)</strong><br />Adresse USA: 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<br />EU-Niederlassung: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland</p>
+                  <p>Wir nutzen Google Meet ausschließlich zur Durchführung von Videokonferenzen und Google Calendar zur Terminverwaltung. Die Datenverarbeitung erfolgt unter Einhaltung der EU-Standardvertragsklauseln. Weitere Informationen finden Sie hier: <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">https://policies.google.com/privacy</a></p>
                 </li>
               </ul>
             </section>
