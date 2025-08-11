@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const scrollToId = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section id="home" className="bg-hero">
       <div className="container py-20 md:py-28">
@@ -15,10 +19,10 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
               <Button asChild variant="heroWhite" size="xl">
-                <a href="#contact">Projekt starten</a>
+                <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToId('contact'); }}>Projekt starten</a>
               </Button>
               <Button asChild variant="heroBlack" size="xl">
-                <a href="#about">Mehr erfahren</a>
+                <a href="#about" onClick={(e) => { e.preventDefault(); scrollToId('about'); }}>Mehr erfahren</a>
               </Button>
             </div>
           </div>
