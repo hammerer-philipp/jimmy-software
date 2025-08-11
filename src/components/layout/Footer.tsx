@@ -1,4 +1,5 @@
 import { Linkedin, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -44,9 +45,9 @@ const Footer = () => {
         <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
           <p>© 2025 Jimmy Software – Entwickelt mit ❤️ in Bayern.</p>
           <div className="flex items-center gap-4">
-            <a href="/impressum" className="hover:text-foreground transition-colors">Impressum</a>
+            <Link to="/impressum" className="hover:text-foreground transition-colors">Impressum</Link>
             <span aria-hidden="true">•</span>
-            <a href="/datenschutz" className="hover:text-foreground transition-colors">Datenschutz</a>
+            <Link to="/datenschutz" className="hover:text-foreground transition-colors">Datenschutz</Link>
           </div>
         </div>
       </div>
