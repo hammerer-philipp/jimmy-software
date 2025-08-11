@@ -45,9 +45,9 @@ const Footer = () => {
         <div className="flex w-full items-center justify-between text-sm text-muted-foreground">
           <p>© 2025 Jimmy Software – Entwickelt mit ❤️ in Bayern.</p>
           <div className="flex items-center gap-4">
-            <Link to="/impressum" className="hover:text-foreground transition-colors">Impressum</Link>
+            <a href="#/impressum" className="hover:text-foreground transition-colors">Impressum</a>
             <span aria-hidden="true">•</span>
-            <Link to="/datenschutz" className="hover:text-foreground transition-colors">Datenschutz</Link>
+            <a href="#/datenschutz" className="hover:text-foreground transition-colors">Datenschutz</a>
           </div>
         </div>
       </div>
