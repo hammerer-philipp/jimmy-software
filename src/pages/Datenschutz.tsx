@@ -18,7 +18,10 @@ const Datenschutz = () => {
       link.setAttribute("rel", "canonical");
       document.head.appendChild(link);
     }
-    link.setAttribute("href", window.location.href);
+    const { origin, hash } = window.location;
+    const hashPath = hash.replace(/^#/, "");
+    const canonicalPath = hashPath.startsWith("/") ? hashPath : `/${hashPath}`;
+    link.setAttribute("href", `${origin}${canonicalPath || "/"}`);
   }, []);
 
   return (
