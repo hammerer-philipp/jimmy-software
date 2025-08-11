@@ -72,35 +72,39 @@ const Datenschutz = () => {
               </ul>
             </section>
             <section aria-labelledby="sec-6">
-              <h2 id="sec-6" className="text-xl md:text-2xl font-semibold">6. Dauer der Speicherung</h2>
-              <p>Wir speichern Ihre personenbezogenen Daten nur so lange, wie dies zur Erfüllung der jeweiligen Zwecke erforderlich ist oder Sie Ihre Einwilligung nicht widerrufen haben. Beispielsweise werden Kontaktdaten für die Dauer der Geschäftsbeziehung und bis zu drei Jahre danach gespeichert, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+              <h2 id="sec-6" className="text-xl md:text-2xl font-semibold">6. Nutzung von Google Fonts</h2>
+              <p>Unsere Website verwendet zur einheitlichen und ansprechenden Darstellung von Schriftarten die Google Fonts des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Die Schriftarten werden lokal von unserem Server geladen, sodass keine direkte Verbindung zu den Servern von Google beim Aufrufen der Website hergestellt wird. Damit werden keine personenbezogenen Daten an Google übermittelt. Sollte sich dies zukünftig ändern und Google Fonts über deren Server geladen werden, erfolgt dies unter Einhaltung der EU-Standardvertragsklauseln und mit entsprechendem Hinweis in dieser Datenschutzerklärung. Weitere Informationen finden Sie unter <a href="https://fonts.google.com/" target="_blank" rel="noreferrer">https://fonts.google.com/</a> und in den Datenschutzbestimmungen von Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">https://policies.google.com/privacy</a>.</p>
             </section>
             <section aria-labelledby="sec-7">
-              <h2 id="sec-7" className="text-xl md:text-2xl font-semibold">7. Einwilligung und Widerruf</h2>
-              <p>Die Anmeldung zu unserem Newsletter und unseren Kursangeboten erfolgt über Checkboxen mit anschließender Bestätigung via Double-Opt-In-E-Mail. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, z. B. durch eine E-Mail an <a href="mailto:kontakt@jimmy-marken.de">kontakt@jimmy-marken.de</a>.</p>
+              <h2 id="sec-7" className="text-xl md:text-2xl font-semibold">7. Dauer der Speicherung</h2>
+              <p>Wir speichern Ihre personenbezogenen Daten nur so lange, wie dies zur Erfüllung der jeweiligen Zwecke erforderlich ist oder Sie Ihre Einwilligung nicht widerrufen haben. Beispielsweise werden Kontaktdaten für die Dauer der Geschäftsbeziehung und bis zu drei Jahre danach gespeichert, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
             </section>
             <section aria-labelledby="sec-8">
-              <h2 id="sec-8" className="text-xl md:text-2xl font-semibold">8. Ihre Rechte</h2>
-              <p>Sie haben das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten sowie auf Berichtigung, Löschung oder Einschränkung der Verarbeitung. Zudem können Sie der Verarbeitung widersprechen oder eine Datenübertragbarkeit verlangen. Sie können Ihre Einwilligung jederzeit widerrufen. Zusätzlich haben Sie das Recht, eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen. Für Fragen oder zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href="mailto:kontakt@jimmy-marken.de">kontakt@jimmy-marken.de</a>.</p>
+              <h2 id="sec-8" className="text-xl md:text-2xl font-semibold">8. Einwilligung und Widerruf</h2>
+              <p>Die Anmeldung zu unserem Newsletter und unseren Kursangeboten erfolgt über Checkboxen mit anschließender Bestätigung via Double-Opt-In-E-Mail. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, z. B. durch eine E-Mail an <a href="mailto:kontakt@jimmy-marken.de">kontakt@jimmy-marken.de</a>.</p>
             </section>
             <section aria-labelledby="sec-9">
-              <h2 id="sec-9" className="text-xl md:text-2xl font-semibold">9. Sicherheit</h2>
-              <p>Unsere Website nutzt eine SSL-Verschlüsselung zum Schutz Ihrer Daten vor unbefugtem Zugriff.</p>
+              <h2 id="sec-9" className="text-xl md:text-2xl font-semibold">9. Ihre Rechte</h2>
+              <p>Sie haben das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten sowie auf Berichtigung, Löschung oder Einschränkung der Verarbeitung. Zudem können Sie der Verarbeitung widersprechen oder eine Datenübertragbarkeit verlangen. Sie können Ihre Einwilligung jederzeit widerrufen. Zusätzlich haben Sie das Recht, eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen. Für Fragen oder zur Ausübung Ihrer Rechte wenden Sie sich bitte an: <a href="mailto:kontakt@jimmy-marken.de">kontakt@jimmy-marken.de</a>.</p>
             </section>
             <section aria-labelledby="sec-10">
-              <h2 id="sec-10" className="text-xl md:text-2xl font-semibold">10. Cookies</h2>
-              <p>Unsere Website verwendet keine Cookies.</p>
+              <h2 id="sec-10" className="text-xl md:text-2xl font-semibold">10. Sicherheit</h2>
+              <p>Unsere Website nutzt eine SSL-Verschlüsselung zum Schutz Ihrer Daten vor unbefugtem Zugriff.</p>
             </section>
             <section aria-labelledby="sec-11">
-              <h2 id="sec-11" className="text-xl md:text-2xl font-semibold">11. Externe Links</h2>
-              <p>Auf unserer Website finden Sie Links zu sozialen Netzwerken wie LinkedIn und Instagram. Diese Links sind einfache Verweise, es erfolgt keine automatische Datenübermittlung beim Anklicken. Für den Inhalt und die Datenschutzpraktiken dieser externen Seiten übernehmen wir keine Verantwortung.</p>
+              <h2 id="sec-11" className="text-xl md:text-2xl font-semibold">11. Cookies</h2>
+              <p>Unsere Website verwendet keine Cookies.</p>
             </section>
             <section aria-labelledby="sec-12">
-              <h2 id="sec-12" className="text-xl md:text-2xl font-semibold">12. Videokonferenzen</h2>
-              <p>Wir nutzen Google Meet ausschließlich für Videokonferenzen. Es gelten die Datenschutzbestimmungen von Google.</p>
+              <h2 id="sec-12" className="text-xl md:text-2xl font-semibold">12. Externe Links</h2>
+              <p>Auf unserer Website finden Sie Links zu sozialen Netzwerken wie LinkedIn und Instagram. Diese Links sind einfache Verweise, es erfolgt keine automatische Datenübermittlung beim Anklicken. Für den Inhalt und die Datenschutzpraktiken dieser externen Seiten übernehmen wir keine Verantwortung.</p>
             </section>
             <section aria-labelledby="sec-13">
-              <h2 id="sec-13" className="text-xl md:text-2xl font-semibold">13. Aktualität und Änderungen der Datenschutzerklärung</h2>
+              <h2 id="sec-13" className="text-xl md:text-2xl font-semibold">13. Videokonferenzen</h2>
+              <p>Wir nutzen Google Meet ausschließlich für Videokonferenzen. Es gelten die Datenschutzbestimmungen von Google.</p>
+            </section>
+            <section aria-labelledby="sec-14">
+              <h2 id="sec-14" className="text-xl md:text-2xl font-semibold">14. Aktualität und Änderungen der Datenschutzerklärung</h2>
               <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand August 2025. Wir behalten uns vor, die Datenschutzerklärung bei Bedarf anzupassen, um sie an geänderte rechtliche oder technische Rahmenbedingungen anzupassen. Die jeweils aktuelle Version ist auf unserer Website jederzeit einsehbar. Bitte informieren Sie sich regelmäßig über den Inhalt der Datenschutzerklärung.</p>
             </section>
           </article>
